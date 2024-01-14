@@ -1,9 +1,38 @@
-# React + Vite
+# Basic setup web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Package Information
 
-Currently, two official plugins are available:
+- **Name:** classic-it
+- **Private:** true
+- **Version:** 0.0.0
+- **Type:** module
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# React-Tailwind-SetUp
+## Scripts
+
+- **dev:** `vite`
+- **build:** `vite build`
+- **lint:** `eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0`
+- **preview:** `vite preview`
+
+## Dependencies
+
+- **axios:** ^1.6.2
+- **react:** ^18.2.0
+- **react-dom:** ^18.2.0
+- **react-hot-toast:** ^2.4.1
+- **react-router-dom:** ^6.21.1
+
+## Development Dependencies
+
+- **@types/react:** ^18.2.43
+- **@types/react-dom:** ^18.2.17
+- **@vitejs/plugin-react:** ^4.2.1
+- **autoprefixer:** ^10.4.16
+- **eslint:** ^8.55.0
+- **eslint-plugin-react:** ^7.33.2
+- **eslint-plugin-react-hooks:** ^4.6.0
+- **eslint-plugin-react-refresh:** ^0.4.5
+- **postcss:** ^8.4.32
+- **tailwindcss:** ^3.4.0
+- **vite:** ^5.0.8
+
